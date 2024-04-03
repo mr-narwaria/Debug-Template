@@ -1,8 +1,5 @@
 #include<bits/stdc++.h>
-
 using namespace std;
-
-
 
 #define fastio() ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL)
 #define MOD 1000000007
@@ -22,7 +19,6 @@ using namespace std;
 typedef long long ll;
 typedef unsigned long long ull;
 typedef long double lld;
-// typedef tree<pair<int, int>, null_type, less<pair<int, int>>, rb_tree_tag, tree_order_statistics_node_update > pbds; // find_by_order, order_of_key
 
 #ifndef ONLINE_JUDGE
 #define debug(x) cerr << #x <<" "; _print(x); cerr << endl;
@@ -49,10 +45,22 @@ template <class T> void _print(set <T> v) {cerr << "[ "; for (T i : v) {_print(i
 template <class T> void _print(multiset <T> v) {cerr << "[ "; for (T i : v) {_print(i); cerr << " ";} cerr << "]";}
 template <class T, class V> void _print(map <T, V> v) {cerr << "[ "; for (auto i : v) {_print(i); cerr << " ";} cerr << "]";}
 
-int main() {
-#ifndef ONLINE_JUDGE
-	freopen("Error.txt", "w", stderr);
-#endif
 
+void solve() {
+   
 }
 
+
+int main() {
+#ifndef ONLINE_JUDGE
+  freopen("Error.txt", "w", stderr);
+#endif
+fastio();
+
+ll t; cin >> t;
+while(t--) {
+  solve();
+}
+
+return 0;
+}
